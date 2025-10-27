@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useMemo, useEffect } from "react";
-import productList from "@/data/products.json";
 
 interface Product {
   id: string;
@@ -12,20 +11,10 @@ interface Product {
   inventory: number;
   lastUpdated: string;
 }
-
-const getProducts = (): Product[] => {
-  return productList;
-};
-
-const DisplayProducts = () => {
-  const [products, setProducts] = useState<Product[]>([]);
+const DisplayProducts = ({products} : {products : Product[]}) => {
   const [searchProduct, setSearchProduct] = useState("");
   const [sortOption, setSortOption] = useState("");
 
-  useEffect(() => {
-    const list = getProducts();
-    setProducts(list);
-  }, []);
 
   const filteredProducts = useMemo(() => {
     let result = products.filter((product) =>
@@ -112,7 +101,7 @@ const ProductCard = ({ product }: any) => {
           }`}
         >
           {/* Image Section */}
-          <div className="relative h-48 bg-gradient-to-br from-orange-500 via-red-500 to-rose-500 overflow-hidden">
+          <div className="relative h-48 bg-linear-to-br from-orange-500 via-red-500 to-rose-500 overflow-hidden">
             <div className="absolute inset-0 flex items-center justify-center">
               <div
                 className={`transition-transform duration-700 ${
