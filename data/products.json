@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Bluetooth Headphones",
+    "slug": "wireless-bluetooth-headphones-pro",
+    "description": "Over-ear noise-cancelling headphones with 40-hour battery life and rich bass sound.",
+    "price": 89.99,
+    "category": "Electronics",
+    "inventory": 25,
+    "lastUpdated": "2025-10-27T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Wireless Bluetooth Headphones",
+    "slug": "wireless-bluetooth-headphones-lite",
+    "description": "Lightweight version with 25-hour battery life and quick-charge support.",
+    "price": 69.99,
+    "category": "Electronics",
+    "inventory": 40,
+    "lastUpdated": "2025-10-27T10:30:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Smart Fitness Watch",
+    "slug": "smart-fitness-watch-series-5",
+    "description": "Track your workouts, heart rate, sleep, and more with this water-resistant smart watch.",
+    "price": 129.99,
+    "category": "Wearables",
+    "inventory": 30,
+    "lastUpdated": "2025-10-27T10:30:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Smart Fitness Watch",
+    "slug": "smart-fitness-watch-series-5-lux",
+    "description": "Premium leather strap and AMOLED display version of the Series 5 fitness watch.",
+    "price": 159.99,
+    "category": "Wearables",
+    "inventory": 15,
+    "lastUpdated": "2025-10-27T10:30:00Z"
+  },
+  {
+    "id": "5",
+    "name": "Mechanical Gaming Keyboard",
+    "slug": "mechanical-gaming-keyboard-rgb",
+    "description": "RGB backlit keyboard with tactile switches and programmable macros for gamers.",
+    "price": 79.99,
+    "category": "Computers",
+    "inventory": 50,
+    "lastUpdated": "2025-10-27T10:30:00Z"
+  },
+  {
+    "id": "6",
+    "name": "Mechanical Gaming Keyboard",
+    "slug": "mechanical-gaming-keyboard-white-edition",
+    "description": "White edition keyboard with linear switches and detachable wrist rest.",
+    "price": 84.99,
+    "category": "Computers",
+    "inventory": 25,
+    "lastUpdated": "2025-10-27T10:30:00Z"
+  },
+  {
+    "id": "7",
+    "name": "Smart LED Light Bulb",
+    "slug": "smart-led-light-bulb-rgb-plus",
+    "description": "Color-changing bulb controllable via app or voice assistant, supports schedules.",
+    "price": 14.99,
+    "category": "Home Automation",
+    "inventory": 120,
+    "lastUpdated": "2025-10-27T10:30:00Z"
+  },
+  {
+    "id": "8",
+    "name": "Smart LED Light Bulb",
+    "slug": "smart-led-light-bulb-white-ambience",
+    "description": "Soft white LED bulb with adjustable brightness and remote app control.",
+    "price": 12.99,
+    "category": "Home Automation",
+    "inventory": 100,
+    "lastUpdated": "2025-10-27T10:30:00Z"
+  },
+  {
+    "id": "9",
+    "name": "Noise-Cancelling Earbuds",
+    "slug": "noise-cancelling-earbuds-mini",
+    "description": "Compact wireless earbuds with active noise cancellation and 30-hour battery life.",
+    "price": 99.99,
+    "category": "Audio",
+    "inventory": 35,
+    "lastUpdated": "2025-10-27T10:30:00Z"
+  },
+  {
+    "id": "10",
+    "name": "Noise-Cancelling Earbuds",
+    "slug": "noise-cancelling-earbuds-max",
+    "description": "Premium earbuds with adaptive noise control and spatial audio support.",
+    "price": 139.99,
+    "category": "Audio",
+    "inventory": 20,
+    "lastUpdated": "2025-10-27T10:30:00Z"
+  }
+]
