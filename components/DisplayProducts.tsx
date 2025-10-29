@@ -63,7 +63,9 @@ const DisplayProducts = ({products} : {products : Product[]}) => {
       {/* Display Products */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
         {filteredProducts.map((product, idx) => (
-          <ProductCard product={product} key={idx} />
+          <Link href={`/products/${product.slug}`}>
+            <ProductCard product={product} key={idx} className='cursor-pointer'/>
+          </Link>
         ))}
       </div>
     </div>
@@ -73,6 +75,7 @@ const DisplayProducts = ({products} : {products : Product[]}) => {
 export default DisplayProducts;
 
 import { ShoppingCart, Heart, Package, Clock } from "lucide-react";
+import Link from "next/link";
 
 const ProductCard = ({ product }: any) => {
   const [isLiked, setIsLiked] = useState(false);
